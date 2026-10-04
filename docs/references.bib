@@ -1,0 +1,242 @@
+@comment{
+  Referências do projeto "Quantum Community Detection in Complex Networks via QAOA".
+
+  Convenção do campo `note`:
+    - sem `note`            -> metadados conferidos em fonte online (arXiv, PMC, Frontiers, IBM)
+    - "A VERIFICAR"         -> entrada escrita de memória; confirmar volume, páginas e DOI
+                               antes de citar em texto submetido
+  Chave: sobrenome do primeiro autor + ano + palavra-chave.
+}
+
+% ============================================================
+% 1. Modularidade e detecção de comunidades (base clássica)
+% ============================================================
+
+@article{newman2006modularity,
+  author  = {Newman, M. E. J.},
+  title   = {Modularity and community structure in networks},
+  journal = {Proceedings of the National Academy of Sciences},
+  volume  = {103},
+  number  = {23},
+  pages   = {8577--8582},
+  year    = {2006},
+  doi     = {10.1073/pnas.0601602103},
+  eprint  = {physics/0602124},
+  archivePrefix = {arXiv}
+}
+
+@article{newman2006eigenvectors,
+  author  = {Newman, M. E. J.},
+  title   = {Finding community structure in networks using the eigenvectors of matrices},
+  journal = {Physical Review E},
+  volume  = {74},
+  pages   = {036104},
+  year    = {2006},
+  eprint  = {physics/0605087},
+  archivePrefix = {arXiv}
+}
+
+@article{fortunato2007resolution,
+  author  = {Fortunato, Santo and Barth{\'e}lemy, Marc},
+  title   = {Resolution limit in community detection},
+  journal = {Proceedings of the National Academy of Sciences},
+  volume  = {104},
+  number  = {1},
+  pages   = {36--41},
+  year    = {2007},
+  note    = {A VERIFICAR}
+}
+
+@article{brandes2008modularity,
+  author  = {Brandes, Ulrik and Delling, Daniel and Gaertler, Marco and G{\"o}rke, Robert and Hoefer, Martin and Nikoloski, Zoran and Wagner, Dorothea},
+  title   = {On Modularity Clustering},
+  journal = {IEEE Transactions on Knowledge and Data Engineering},
+  volume  = {20},
+  number  = {2},
+  pages   = {172--188},
+  year    = {2008},
+  note    = {A VERIFICAR}
+}
+
+@article{blondel2008louvain,
+  author  = {Blondel, Vincent D. and Guillaume, Jean-Loup and Lambiotte, Renaud and Lefebvre, Etienne},
+  title   = {Fast unfolding of communities in large networks},
+  journal = {Journal of Statistical Mechanics: Theory and Experiment},
+  volume  = {2008},
+  number  = {10},
+  pages   = {P10008},
+  year    = {2008},
+  note    = {A VERIFICAR}
+}
+
+@article{traag2019leiden,
+  author  = {Traag, V. A. and Waltman, L. and van Eck, N. J.},
+  title   = {From Louvain to Leiden: guaranteeing well-connected communities},
+  journal = {Scientific Reports},
+  volume  = {9},
+  pages   = {5233},
+  year    = {2019},
+  note    = {A VERIFICAR}
+}
+
+@article{goemans1995maxcut,
+  author  = {Goemans, Michel X. and Williamson, David P.},
+  title   = {Improved approximation algorithms for maximum cut and satisfiability problems using semidefinite programming},
+  journal = {Journal of the ACM},
+  volume  = {42},
+  number  = {6},
+  pages   = {1115--1145},
+  year    = {1995},
+  note    = {A VERIFICAR}
+}
+
+% ============================================================
+% 2. Formulação Ising / QUBO
+% ============================================================
+
+@article{lucas2014ising,
+  author  = {Lucas, Andrew},
+  title   = {Ising formulations of many {NP} problems},
+  journal = {Frontiers in Physics},
+  volume  = {2},
+  pages   = {5},
+  year    = {2014},
+  doi     = {10.3389/fphy.2014.00005},
+  eprint  = {1302.5843},
+  archivePrefix = {arXiv}
+}
+
+% ============================================================
+% 3. QAOA: fundamentos e desempenho
+% ============================================================
+
+@misc{farhi2014qaoa,
+  author  = {Farhi, Edward and Goldstone, Jeffrey and Gutmann, Sam},
+  title   = {A Quantum Approximate Optimization Algorithm},
+  year    = {2014},
+  eprint  = {1411.4028},
+  archivePrefix = {arXiv},
+  primaryClass  = {quant-ph},
+  doi     = {10.48550/arXiv.1411.4028}
+}
+
+@misc{farhi2014bounded,
+  author  = {Farhi, Edward and Goldstone, Jeffrey and Gutmann, Sam},
+  title   = {A Quantum Approximate Optimization Algorithm Applied to a Bounded Occurrence Constraint Problem},
+  year    = {2014},
+  eprint  = {1412.6062},
+  archivePrefix = {arXiv},
+  primaryClass  = {quant-ph}
+}
+
+@article{zhou2020qaoa,
+  author  = {Zhou, Leo and Wang, Sheng-Tao and Choi, Soonwon and Pichler, Hannes and Lukin, Mikhail D.},
+  title   = {Quantum Approximate Optimization Algorithm: Performance, Mechanism, and Implementation on Near-Term Devices},
+  journal = {Physical Review X},
+  volume  = {10},
+  pages   = {021067},
+  year    = {2020},
+  eprint  = {1812.01041},
+  archivePrefix = {arXiv},
+  note    = {Volume e numero do artigo A VERIFICAR}
+}
+
+@article{hadfield2019qaoa,
+  author  = {Hadfield, Stuart and Wang, Zhihui and O'Gorman, Bryan and Rieffel, Eleanor G. and Venturelli, Davide and Biswas, Rupak},
+  title   = {From the Quantum Approximate Optimization Algorithm to a Quantum Alternating Operator Ansatz},
+  journal = {Algorithms},
+  volume  = {12},
+  number  = {2},
+  pages   = {34},
+  year    = {2019},
+  note    = {A VERIFICAR}
+}
+
+% ============================================================
+% 4. Detecção de comunidades em computadores quânticos
+% ============================================================
+
+@misc{shaydulin2018across,
+  author  = {Shaydulin, Ruslan and Ushijima-Mwesigwa, Hayato and Safro, Ilya and Mniszewski, Susan and Alexeev, Yuri},
+  title   = {Community Detection Across Emerging Quantum Architectures},
+  year    = {2018},
+  eprint  = {1810.07765},
+  archivePrefix = {arXiv},
+  primaryClass  = {quant-ph},
+  doi     = {10.48550/arXiv.1810.07765}
+}
+
+@article{shaydulin2019small,
+  author  = {Shaydulin, Ruslan and Ushijima-Mwesigwa, Hayato and Safro, Ilya and Mniszewski, Susan and Alexeev, Yuri},
+  title   = {Network Community Detection on Small Quantum Computers},
+  journal = {Advanced Quantum Technologies},
+  year    = {2019},
+  eprint  = {1810.12484},
+  archivePrefix = {arXiv},
+  primaryClass  = {quant-ph},
+  note    = {Volume e paginas A VERIFICAR}
+}
+
+% ============================================================
+% 5. Treinabilidade, ruído e reprodutibilidade
+% ============================================================
+
+@article{mcclean2018barren,
+  author  = {McClean, Jarrod R. and Boixo, Sergio and Smelyanskiy, Vadim N. and Babbush, Ryan and Neven, Hartmut},
+  title   = {Barren plateaus in quantum neural network training landscapes},
+  journal = {Nature Communications},
+  volume  = {9},
+  pages   = {4812},
+  year    = {2018},
+  note    = {A VERIFICAR}
+}
+
+@article{cerezo2021vqa,
+  author  = {Cerezo, M. and Arrasmith, Andrew and Babbush, Ryan and Benjamin, Simon C. and Endo, Suguru and Fujii, Keisuke and McClean, Jarrod R. and Mitarai, Kosuke and Yuan, Xiao and Cincio, Luk{\'a}{\v{s}} and Coles, Patrick J.},
+  title   = {Variational quantum algorithms},
+  journal = {Nature Reviews Physics},
+  volume  = {3},
+  pages   = {625--644},
+  year    = {2021},
+  note    = {A VERIFICAR}
+}
+
+@article{wang2021noise,
+  author  = {Wang, Samson and Fontana, Enrico and Cerezo, M. and Sharma, Kunal and Sone, Akira and Cincio, Luk{\'a}{\v{s}} and Coles, Patrick J.},
+  title   = {Noise-induced barren plateaus in variational quantum algorithms},
+  journal = {Nature Communications},
+  volume  = {12},
+  pages   = {6961},
+  year    = {2021},
+  note    = {A VERIFICAR}
+}
+
+@misc{cardinal2025migrating,
+  author  = {Cardinal, Julien and Benzarti, Imen and El Boussaidi, Ghizlane and Pere, Christophe},
+  title   = {Migrating {QAOA} from {Qiskit} 1.x to 2.x: An experience report},
+  year    = {2025},
+  eprint  = {2512.08245},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.SE},
+  note    = {Publicado no 7th International Workshop on Quantum Software Engineering (Q-SE 2026)}
+}
+
+% ============================================================
+% 6. Documentação oficial (software)
+% ============================================================
+
+@misc{ibm2026qaoatutorial,
+  author       = {{IBM Quantum}},
+  title        = {Quantum approximate optimization algorithm (tutorial)},
+  howpublished = {IBM Quantum Learning},
+  url          = {https://quantum.cloud.ibm.com/docs/tutorials/quantum-approximate-optimization-algorithm},
+  note         = {Acessado em 2026-10-04}
+}
+
+@misc{ibm2026warmstart,
+  author       = {{IBM Quantum}},
+  title        = {Warm-start {QAOA} with the Optimization Mapper Qiskit addon (tutorial)},
+  howpublished = {IBM Quantum Learning},
+  url          = {https://quantum.cloud.ibm.com/docs/tutorials/warm-start-qaoa},
+  note         = {Acessado em 2026-10-04}
+}
