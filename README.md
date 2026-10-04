@@ -29,11 +29,25 @@ $$\hat{H}_C = -\frac{1}{4m} \sum_{i,j} B_{ij} \hat{Z}_i \hat{Z}_j$$
 
 ```text
 quantum-community-detection/
-├── docs/                 # Documentação formal e formulações matemáticas
-├── src/                  # Módulos principais do pacote Python
-│   ├── graph_utils/      # Manipulação de grafos e matrizes de modularidade
-│   ├── hamiltonian/      # Mapeamento do modelo de Ising para operadores Pauli (Qiskit)
-│   └── qaoa/             # Circuitos variacionais quânticos e otimizadores
-├── notebooks/            # Notebooks de validação e benchmarks
-├── tests/                # Testes unitários automatizados (pytest)
-└── pyproject.toml        # Configuração do projeto e dependências (uv)
+├── configs/              # YAMLs de experimento (grafo, p, otimizador, shots, ruído, seed)
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   └── synthetic/        # Parâmetros/seeds dos grafos gerados (SBM, LFR)
+├── docs/
+│   ├── theory/           # Derivação de Q → Ising → H_C
+│   └── references.bib    # Bibliografia única em BibTeX
+├── notebooks/            # Numerados: 01_modularidade_classica, 02_hamiltoniano, 03_qaoa_p1...
+├── src/qcd/
+│   ├── graph_utils/
+│   ├── hamiltonian/
+│   ├── qaoa/
+│   ├── baselines/        # Louvain, Leiden, espectral, exato
+│   ├── noise/            # Modelos de ruído do Aer
+│   └── metrics/          # Q, NMI, ARI, razão de aproximação
+├── experiments/          # Scripts executáveis dirigidos por configs/
+├── results/              # Saídas (no .gitignore, exceto resumos leves)
+├── tests/
+├── .github/workflows/    # CI com pytest + ruff
+├── pyproject.toml / uv.lock / .python-version
+└── README.md
