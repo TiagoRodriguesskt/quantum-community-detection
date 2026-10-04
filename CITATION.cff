@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Se você usar este software, por favor cite-o como abaixo."
+title: "Quantum Community Detection in Complex Networks via QAOA"
+authors:
+  - family-names: "Rodrigues"
+    given-names: "Tiago"
+repository-code: "https://github.com/TiagoRodriguesskt/quantum-community-detection"
+license: MIT

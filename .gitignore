@@ -8,3 +8,8 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Resultados de experimentos (mantém só a pasta e resumos leves)
+results/*
+!results/.gitkeep
+!results/*.md
